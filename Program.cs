@@ -23,4 +23,4 @@ primeiroNome = nomeCompleto.Substring(0,pos1);
 
 segundoNome = nomeCompleto.Substring(pos2);
 
-Console.WriteLine("E-mail institucional: " + primeiroNome.Trim() + "."+ segundoNome.Trim().ToLower() + dominio);
+Console.WriteLine("E-mail institucional: " + primeiroNome.Trim().ToLower() + "."+ segundoNome.Trim().ToLower() + dominio);
